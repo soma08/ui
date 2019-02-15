@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo Class</title>
+	<style>
+		.menu{
+			background:#000;
+			float: left;
+			width: 100%;
+		 	padding: 0px;
+		 	margin-top:-5px;
+		}
+		.menu li{
+			float: left;
+			list-style: none;
+		}
+		.menu li a
+		{
+			color: #ffffff;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 15px;
+		    float: left;
+		}
+		.menu li a:hover{
+			background:#FF0;
+			color: #000;
+		}
+		.banner{
+			width: 100%;
+		}
+		*{
+			margin: 0px;
+		}
+		.main{
+			padding: 30px;
+			margin-top: 50px;
+		}
+
+		.cp{
+			text-align: center;
+			background:#000;
+			color: #FFF;
+			padding: 10px;
+		}
+
+		.sub{
+			position: absolute;
+			background:#000;
+			padding: 0px;
+			margin-top: 48px;
+			overflow: hidden;
+			display: none;
+
+		}
+		.sub li{
+			float: none;
+		}
+		.sub li a{
+			width: 100%;
+		}
+
+		.menu li:hover ul
+		{
+			display: block;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div>
+		<img src="b.jpg" class="banner">
+	</div>
+	<div>
+	<ul class="menu">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Category</a>
+
+             <ul class="sub">
+             	<li><a href="#">Veg</a></li>
+		        <li><a href="#">Non Veg</a></li>
+		        <li><a href="#">Chinese</a></li>
+		        <li><a href="#">Italian</a></li>
+		     
+
+             </ul>
+
+		</li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+  </div>
+  <div class="main">
+  	<h1>Wukka Cafe</h1>
+  	<p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+  	<p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  	
+  	<p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>		
+  </div>
+  <div>
+  	<p class="cp">&copy; All right resarved Wukka Cafe 2019</p>
+  </div>
+</body>
+</html>
